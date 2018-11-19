@@ -5,11 +5,18 @@
         "target": "es6",
         "module": "commonjs",
         "moduleResolution": "node",
+        "outDir": "dist",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true
     },
+    "include": [
+        "src/**/*.ts",
+        "src/spec/*.ts"
+
+    ],
     "exclude": [
         "node_modules"
+        // "src/**/*.ts"
     ]
 }
